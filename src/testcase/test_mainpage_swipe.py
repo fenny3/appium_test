@@ -49,7 +49,7 @@ class TestMainPageSwipe:
                 self.driver.save_screenshot(base_label_text + '.png')
                 # with open(base_label_text + '.png', 'rb') as rbf:
                 #     allure.attach('最后一个新闻栏目', rbf.read(), allure.attachment_type.PNG)
-                # break
+                break
             base_label_text = next_label.text
             logging.info('进入{}栏目'.format(base_label_text))
             with allure.step('进入{0}栏目，并通过topic验证是否在{0}栏目，然后上滑5次'.format(base_label_text)):
