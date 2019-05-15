@@ -1,0 +1,123 @@
+{
+  "uid" : "94f13e9dee2b5a21",
+  "name" : "测试点击微信登录跳转授权的功能",
+  "fullName" : "src.testcase.test_login_module.TestLogin#test_wechat_2",
+  "historyId" : "b23e30afc89a97483f9a1dc68a2b394f",
+  "time" : {
+    "start" : 1557936726752,
+    "stop" : 1557936744377,
+    "duration" : 17625
+  },
+  "description" : "\n        输入不合法的帐号，密码，测试错误提示\n        ",
+  "descriptionHtml" : "<pre><code>    输入不合法的帐号，密码，测试错误提示\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        输入不合法的帐号，密码，测试错误提示\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击微信登录按钮，进入微信登录页面",
+      "time" : {
+        "start" : 1557936726752,
+        "stop" : 1557936728841,
+        "duration" : 2089
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输出帐号，验证码，点击登录按钮",
+      "time" : {
+        "start" : 1557936728841,
+        "stop" : 1557936744377,
+        "duration" : 15536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d627cd9f1cdbf5d2",
+      "name" : "log",
+      "source" : "d627cd9f1cdbf5d2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "615bc092cb5a3690",
+      "name" : "stdout",
+      "source" : "615bc092cb5a3690.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "34246e4b06dc1efc",
+      "name" : "stderr",
+      "source" : "34246e4b06dc1efc.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录模块"
+  }, {
+    "name" : "story",
+    "value" : "测试微信登录——已安装微信"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_module"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "feenynoMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "48860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcase.test_login_module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94f13e9dee2b5a21.json",
+  "parameterValues" : [ ]
+}

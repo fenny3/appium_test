@@ -1,0 +1,156 @@
+{
+  "uid" : "2b818b74288ece07",
+  "name" : "测试邮箱手机号密码登录,错误的帐号登录",
+  "fullName" : "src.testcase.test_login_module.TestLogin#test_3[13800000000@163.com-123456]",
+  "historyId" : "09ef8e96654a207ba7e95a3c58e769d7",
+  "time" : {
+    "start" : 1557936962840,
+    "stop" : 1557936972169,
+    "duration" : 9329
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击手机及其他登录按钮，进入手机登录页面",
+      "time" : {
+        "start" : 1557936962840,
+        "stop" : 1557936965795,
+        "duration" : 2955
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击邮箱手机号密码登录",
+      "time" : {
+        "start" : 1557936965795,
+        "stop" : 1557936967639,
+        "duration" : 1844
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输出邮箱或手机号",
+      "time" : {
+        "start" : 1557936967639,
+        "stop" : 1557936970305,
+        "duration" : 2666
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入错误的手机号及密码，提示错误",
+      "time" : {
+        "start" : 1557936970305,
+        "stop" : 1557936972169,
+        "duration" : 1864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fab3fbadecca4b08",
+      "name" : "log",
+      "source" : "fab3fbadecca4b08.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "52fa8acda75501ab",
+      "name" : "stdout",
+      "source" : "52fa8acda75501ab.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "df37b90e5811a9c7",
+      "name" : "stderr",
+      "source" : "df37b90e5811a9c7.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录模块"
+  }, {
+    "name" : "story",
+    "value" : "测试手机及其他登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_module"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "feenynoMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "48860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcase.test_login_module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account",
+    "value" : "'13800000000@163.com'"
+  }, {
+    "name" : "passwd",
+    "value" : "'123456'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b818b74288ece07.json",
+  "parameterValues" : [ "'13800000000@163.com'", "'123456'" ]
+}

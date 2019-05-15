@@ -1,0 +1,8 @@
+!.gitignore
+*.pyc
+*.DS_Store
+.idea
+*.swp
+./report/xml/*
+.pytest_cache
+*.png

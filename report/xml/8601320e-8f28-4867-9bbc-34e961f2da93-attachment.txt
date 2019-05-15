@@ -1,0 +1,1 @@
+test_login_module.py       157 INFO     第三方icon的id为：com.xueqiu.android:id/tencent_login

@@ -1,0 +1,171 @@
+{
+  "uid" : "99ecc835aa1b21e",
+  "name" : "测试手机号及验证码登录方式",
+  "fullName" : "src.testcase.test_login_module.TestLogin#test_2[13800000002-1234]",
+  "historyId" : "77ace71f0615972219e7546214088bd8",
+  "time" : {
+    "start" : 1557936756061,
+    "stop" : 1557936797347,
+    "duration" : 41286
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击手机及其他登录按钮，进入手机登录页面",
+      "time" : {
+        "start" : 1557936756061,
+        "stop" : 1557936759084,
+        "duration" : 3023
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "验证发送验证码按钮是否可点击,可点击时取获取验证码",
+      "time" : {
+        "start" : 1557936759084,
+        "stop" : 1557936797346,
+        "duration" : 38262
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "验证正在获取验证码",
+        "time" : {
+          "start" : 1557936762456,
+          "stop" : 1557936793947,
+          "duration" : 31491
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "关闭语音验证的提示",
+          "time" : {
+            "start" : 1557936764731,
+            "stop" : 1557936793947,
+            "duration" : 29216
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "验证输入不同的验证码，登录按钮是否可点击",
+        "time" : {
+          "start" : 1557936793947,
+          "stop" : 1557936797346,
+          "duration" : 3399
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5bebd0e884bb6472",
+      "name" : "log",
+      "source" : "5bebd0e884bb6472.txt",
+      "type" : "text/plain",
+      "size" : 327
+    }, {
+      "uid" : "6d42ff60a05a2dfe",
+      "name" : "stdout",
+      "source" : "6d42ff60a05a2dfe.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a3d62f83f1c329ac",
+      "name" : "stderr",
+      "source" : "a3d62f83f1c329ac.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录模块"
+  }, {
+    "name" : "story",
+    "value" : "测试手机及其他登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_module"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "feenynoMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "48860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcase.test_login_module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'1234'"
+  }, {
+    "name" : "phone",
+    "value" : "'13800000002'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99ecc835aa1b21e.json",
+  "parameterValues" : [ "'1234'", "'13800000002'" ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "children" : [ {
+        "name" : "测试第三方登录",
+        "uid" : "7c2b5e090071a1a9",
+        "parentUid" : "7a823ebd65a5f17ad39e628108c6e522",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557936997511,
+          "stop" : 1557937013086,
+          "duration" : 15575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'com.xueqiu.android:id/sina_login'" ]
+      }, {
+        "name" : "测试第三方登录",
+        "uid" : "14f6414c93c623dd",
+        "parentUid" : "7a823ebd65a5f17ad39e628108c6e522",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557937023919,
+          "stop" : 1557937039520,
+          "duration" : 15601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'com.xueqiu.android:id/tencent_login'" ]
+      } ],
+      "uid" : "7a823ebd65a5f17ad39e628108c6e522"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

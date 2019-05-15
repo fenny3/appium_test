@@ -1,0 +1,17 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu May 16 00:16:37 CST 2019","Thu May 16 00:16:53 CST 2019","15575","src.testcase","test_login_module","TestLogin","","","测试第三方登录",""
+"skipped","Thu May 16 00:11:38 CST 2019","Thu May 16 00:11:56 CST 2019","18221","src.testcase","test_login_module","TestLogin","","","测试不合法的帐号密码无法登录并给出提示","
+        输入不合法的帐号，密码，测试错误提示
+        "
+"passed","Thu May 16 00:15:07 CST 2019","Thu May 16 00:15:12 CST 2019","5827","src.testcase","test_login_module","TestLogin","","","测试手机号及验证码登录方式",""
+"passed","Thu May 16 00:13:26 CST 2019","Thu May 16 00:14:06 CST 2019","39523","src.testcase","test_login_module","TestLogin","","","测试手机号及验证码登录方式",""
+"broken","Thu May 16 00:17:03 CST 2019","Thu May 16 00:17:19 CST 2019","15601","src.testcase","test_login_module","TestLogin","","","测试第三方登录",""
+"passed","Thu May 16 00:16:02 CST 2019","Thu May 16 00:16:12 CST 2019","9329","src.testcase","test_login_module","TestLogin","","","测试邮箱手机号密码登录,错误的帐号登录",""
+"passed","Thu May 16 00:15:24 CST 2019","Thu May 16 00:15:29 CST 2019","5532","src.testcase","test_login_module","TestLogin","","","测试手机号及验证码登录方式",""
+"passed","Thu May 16 00:14:16 CST 2019","Thu May 16 00:14:55 CST 2019","38593","src.testcase","test_login_module","TestLogin","","","测试手机号及验证码登录方式",""
+"passed","Thu May 16 00:12:36 CST 2019","Thu May 16 00:13:17 CST 2019","41286","src.testcase","test_login_module","TestLogin","","","测试手机号及验证码登录方式",""
+"passed","Thu May 16 00:15:38 CST 2019","Thu May 16 00:15:49 CST 2019","10730","src.testcase","test_login_module","TestLogin","","","测试邮箱手机号密码登录,错误的帐号登录",""
+"passed","Thu May 16 00:12:06 CST 2019","Thu May 16 00:12:24 CST 2019","17625","src.testcase","test_login_module","TestLogin","","","测试点击微信登录跳转授权的功能","
+        输入不合法的帐号，密码，测试错误提示
+        "
+"passed","Thu May 16 00:16:21 CST 2019","Thu May 16 00:16:25 CST 2019","4384","src.testcase","test_login_module","TestLogin","","","测试第三方登录",""

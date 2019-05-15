@@ -1,0 +1,6 @@
+test_login_module.py        99 INFO     true
+test_login_module.py       107 INFO     有toast提示
+test_login_module.py       109 INFO     验证码已发送
+test_login_module.py       112 INFO     显示语音提示框
+test_login_module.py       114 INFO     获取验证码结束
+test_login_module.py       124 INFO     false

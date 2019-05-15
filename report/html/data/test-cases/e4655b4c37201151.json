@@ -1,0 +1,126 @@
+{
+  "uid" : "e4655b4c37201151",
+  "name" : "测试手机号及验证码登录方式",
+  "fullName" : "src.testcase.test_login_module.TestLogin#test_2[1380000000-1234]",
+  "historyId" : "840b559894722c93ed422b5e5dab88fc",
+  "time" : {
+    "start" : 1557936924104,
+    "stop" : 1557936929636,
+    "duration" : 5532
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击手机及其他登录按钮，进入手机登录页面",
+      "time" : {
+        "start" : 1557936924104,
+        "stop" : 1557936926197,
+        "duration" : 2093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "验证发送验证码按钮是否可点击,可点击时取获取验证码",
+      "time" : {
+        "start" : 1557936926197,
+        "stop" : 1557936929636,
+        "duration" : 3439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4ca92b5b094067ef",
+      "name" : "log",
+      "source" : "4ca92b5b094067ef.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "c50e9d6fab2ad0b6",
+      "name" : "stdout",
+      "source" : "c50e9d6fab2ad0b6.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "7bdeda5a0f942aab",
+      "name" : "stderr",
+      "source" : "7bdeda5a0f942aab.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录模块"
+  }, {
+    "name" : "story",
+    "value" : "测试手机及其他登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_module"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "feenynoMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "48860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcase.test_login_module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'1234'"
+  }, {
+    "name" : "phone",
+    "value" : "'1380000000'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4655b4c37201151.json",
+  "parameterValues" : [ "'1234'", "'1380000000'" ]
+}

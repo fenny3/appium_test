@@ -1,0 +1,233 @@
+{
+  "c85e930175efa94f04d1e5cfdf29961d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91c40afa9e0bc61",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 已安装微信，跳过此case",
+      "time" : {
+        "start" : 1557936698316,
+        "stop" : 1557936716537,
+        "duration" : 18221
+      }
+    } ]
+  },
+  "ccc7a71a9d6f619cb38b023841549fe7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b3dc8a3b0721777",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936938814,
+        "stop" : 1557936949544,
+        "duration" : 10730
+      }
+    } ]
+  },
+  "957a1e51a6538a6990b005b49cb98e98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c2b5e090071a1a9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1557936997511,
+        "stop" : 1557937013086,
+        "duration" : 15575
+      }
+    } ]
+  },
+  "dc1a60e462dd51563f154edc407998db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa7771f1e2f77e91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936856695,
+        "stop" : 1557936895288,
+        "duration" : 38593
+      }
+    } ]
+  },
+  "840b559894722c93ed422b5e5dab88fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e4655b4c37201151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936924104,
+        "stop" : 1557936929636,
+        "duration" : 5532
+      }
+    } ]
+  },
+  "bad6920d05bff374a306c79d03e05e9c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d83500ae8a84317",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936806555,
+        "stop" : 1557936846078,
+        "duration" : 39523
+      }
+    } ]
+  },
+  "09ef8e96654a207ba7e95a3c58e769d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b818b74288ece07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936962840,
+        "stop" : 1557936972169,
+        "duration" : 9329
+      }
+    } ]
+  },
+  "b23e30afc89a97483f9a1dc68a2b394f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94f13e9dee2b5a21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936726752,
+        "stop" : 1557936744377,
+        "duration" : 17625
+      }
+    } ]
+  },
+  "08b0072dd51cc101ba4e9c8288475324" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14f6414c93c623dd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1557937023919,
+        "stop" : 1557937039520,
+        "duration" : 15601
+      }
+    } ]
+  },
+  "77ace71f0615972219e7546214088bd8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99ecc835aa1b21e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936756061,
+        "stop" : 1557936797347,
+        "duration" : 41286
+      }
+    } ]
+  },
+  "1c8f7f7da73c15785e84c84733cc09c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32ae9481846c95c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936907066,
+        "stop" : 1557936912893,
+        "duration" : 5827
+      }
+    } ]
+  },
+  "5cbdc493be399113690abf687099116a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "836aede1134fb661",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557936981062,
+        "stop" : 1557936985446,
+        "duration" : 4384
+      }
+    } ]
+  }
+}
