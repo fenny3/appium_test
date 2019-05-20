@@ -41,7 +41,7 @@ class TestDanJuanJiJin:
             self.driver.find_element_by_xpath(JiaoYiUI.login_xpath.format('pass')).send_keys(passwd)
             self.driver.find_element_by_xpath(JiaoYiUI.login_xpath.format('next')).click()
 
-            ##xpath 适用于appium默认的
+            ##by id 适用于appium默认的
             # self.driver.find_element_by_id('telno').send_keys(account)
             # self.driver.find_element_by_id('pass').send_keys(passwd)
             # self.driver.find_element_by_id('next').click()
