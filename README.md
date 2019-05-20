@@ -3,6 +3,9 @@
 	1、进入项目根目录
 	2、执行 ./runtest 需要运行的case路径
 
+
+	3、作业三的运行方式：./runner src/testcase/test_danjuanjijin.py
+
 二、内容
 
 >作业2
