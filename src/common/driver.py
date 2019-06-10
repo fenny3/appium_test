@@ -7,7 +7,11 @@ import subprocess
 
 from appium import webdriver
 from appium.webdriver import WebElement
-from selenium.common.exceptions import WebDriverException
+from appium.webdriver.common.mobileby import MobileBy
+from selenium.common.exceptions import WebDriverException, NoSuchElementException
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 
 from config import config as Config
 
@@ -40,7 +44,7 @@ class AppDriver:
         real_function_name = getattr(self.driver, function_name)
         real_function_name(value).click()
 
-    def wait_element_displayed(self, by: str, value: str, wait: int=10) -> WebElement or bool:
+    def wait_element_displayed(self, by: str, value: str, wait: int=10, message: str='') -> WebElement or bool:
         function_name = self.prefix + "_" + by
         real_function_name = getattr(self.driver, function_name)
         max_time = time.time() + wait
@@ -48,12 +52,12 @@ class AppDriver:
             try:
                 return real_function_name(value)
             except WebDriverException:
-                return False
+                pass
             time.sleep(0.2)
         raise NoSuchElementException(message)
 
 
-    def whether_element_displayed(self, by: str, value: str, wait: int=10) -> WebElement or bool:
+    def whether_element_displayed(self, by: str, value: str, wait: int=10, message: str='') -> WebElement or bool:
         function_name = self.prefix + "_" + by
         real_function_name = getattr(self.driver, function_name)
         max_time = time.time() + wait
@@ -62,11 +66,34 @@ class AppDriver:
                 try:
                     return real_function_name(value)
                 except WebDriverException:
-                    return False
+                    pass
                 time.sleep(0.2)
-                raise NoSuchElementException(message)
+            raise NoSuchElementException(message)
         except:
             return False
+
+    def wait_element_present1(self, by: str, value: str, wait: int=10, fre: float=0.5) -> WebElement:
+        function_name = self.prefix + '_' + by
+        element = WebDriverWait(self.driver, wait, poll_frequency=fre, ).until(lambda x: getattr(x, function_name)(value))
+        print(element)
+        return element
+
+    def wait_element_present2(self, by: str, value: str, wait: int=10, fre: float=0.5) -> WebElement:
+        # by_str = MobileBy.XPATH
+        if by == 'xpath':
+            by_str = MobileBy.XPATH
+        elif by == 'accessibility_id':
+            by_str = MobileBy.ACCESSIBILITY_ID
+        elif by == 'class_name':
+            by_str = MobileBy.CLASS_NAME
+        else:
+            raise Exception('by is error')
+        element = WebDriverWait(self.driver, wait, poll_frequency=fre
+                                ).until(EC.presence_of_element_located
+                                                          ((by_str, value)))
+        print(element)
+        return element
+
 
     def restart_app(self):
         cmd = "adb shell am start -W -S {package}/{activity}".format(package=Config.CAPS['appPackage'],activity=Config.CAPS['appActivity'])

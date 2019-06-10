@@ -19,6 +19,7 @@ class TestDemon:
             "autoGrantPermissions": True,
             "unicodeKeyboard": True,
             "resetKeyboard": True,
+            "noReset": True
         }
         cls.driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_capabilities)
         cls.driver.implicitly_wait(10)
